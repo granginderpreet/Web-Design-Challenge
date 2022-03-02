@@ -2,13 +2,56 @@
 /*
  First External CSS Stylesheet
  */
-
+<style>
  .photo > img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
+/* Solve problem on a non-solid background */
+/* img:hover { 
+  outline: 3px solid black; 
+}  */
 
+/* Solve problem where border size changes on hover */
+img { 
+  border: 1px solid black; 
+} 
+img:hover { 
+  outline: 2px solid red; 
+} 
+body {
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+
+.img-1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  }
 
 .truncate {
   width: 250px;
@@ -16,3 +59,54 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
+/* (A) SHARED CLASS */
+.box {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 10px;
+}
+.box-1 {
+  margin: 10px;
+  padding: 10px;
+  border-color: grey;
+/* (B) BOX VARIATIONS */
+/* (B1) INFORMATION BOX */
+.info {
+  color: brown;
+  background: cornsilk;
+  border: 1px solid burlywood;
+}
+ 
+/* (B2) WARNING BOX */
+.warn {
+  color: darkmagenta;
+  background: lightpink;
+  border: 1px solid darkred;
+}
+ 
+/* (B3) SUCCESS */
+.ok {
+  color: darkgreen;
+  background: greenyellow;
+  border: 1px solid darkgreen;
+}
+
+ 
+<!-- (B1) INFORMATION -->
+<div class="box info">
+  &#9432; Information box.
+</div>
+ 
+<!-- (B2) WARNING -->
+<div class="box warn">
+  &#9888; Warning icon.
+</div>
+ 
+<!-- (B3) SUCCESS -->
+<div class="box ok">
+  &#9432; Successful!
+</div>
+</style>
