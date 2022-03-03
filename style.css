@@ -30,6 +30,7 @@ body {
   padding: 5px;
   background-color: lightgray;
 }
+.left { float: left; padding: 0 20px 20px 0;}
 
 .all-browsers > h1, .browser {
   margin: 10px;
@@ -42,7 +43,7 @@ body {
 
 .browser > h2, p {
   margin: 4px;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 

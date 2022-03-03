@@ -79,77 +79,88 @@
 
 <!-- Left page -->
 
-<div class="row">
-<div class="md-col-12 lg-col-7 text-left box"> 
-  <article class="all-browsers">
-  <h2 style="color:blue">Summary: Lattitude vs. X</h2>
-  <hr>
-  <article class="browser">
-  <!-- First row -->
-  <div class="row">
-    <!-- One of two columns   -->
-    <div class="col-6">
-        <img class="img-1"  src="Images/Fig1.png" alt="Lattitude">
-    </div>
-    <!-- Second of two columns  -->
-    <div class="col-6">
-  <p>
+<div class="row row-grid">
+  <div class="md-col-12 lg-col-7 text-left box"> 
+    <article class="all-browsers">
+      <h2 style="color:blue">Summary: Lattitude vs. X</h2>
+      <hr>
+      <article class="browser">
+      <!-- First row -->
+        <div class="row">
+        <!-- One of two columns   -->
+          <div class="col-6">
+            <img class="img-1 left"  src="Images/Fig1.png"  alt="Lattitude"> 
+          </div>
+          <!-- Second of two columns  -->
+          <div class="col-6">
+          <p>
 The purpose of this project was to analyze how weather changes as you
  get closer to equator. To accomplish this analysis, we first pulled 
  data from the OpenWeatherMap API to assemble a data set on over 500 
  cities.
-  </p>
- <p> After assembling the data set, we used Matplotlib to plot various 
+          </p>
+          <p> After assembling the data set, we used Matplotlib to plot various 
     aspects of the weather versus lattitude. Factors we looked at 
     included:
   temperature, cloudiness, wind speed, and humidity. This site
     provides the source data and visualizations created as part of 
         the analysis, as well as explanations and descriptions of any
-         trends and correlations witnessed. </p>
-    </div>
+         trends and correlations witnessed. 
+          </p>
+          </div>
+        </div>
+      </article>
+    </article>
   </div>
-
+</div>
  <!-- End of second row  -->
-
-</article>
-</article>
 
 
  <!-- Start of second page on right -->
  <article class="all-browsers">
-  <div class="md-col-12 lg-col-4"> 
+  <div class="md-col-6"> 
     <h2 style="color:blue"> Visualizations</h2>
     <hr>
     <article class="browser">
+      <h3>Here are visualizations. Please click on any images for details</h3>
     <!-- Firt row of second column -->
     <div class="row">
-        <div class="sm-col-12 md-col-6">     
+      <div class="col-1">   </div>
+        <div class="sm-col-13 md-col-6">     
         
             <!-- <div background:"Images/Fig1.png" </div> -->
-            <a href="maxtemp.html"> <img  width="mr-auto", height="240"  src="Images/Fig1.png" > </a>
-      
+            <a href="maxtemp.html" > <img  width="mr-auto", height="240"  src="Images/Fig1.png" > </a>
+   
         </div>
-        <div class="sm-col-12 md-col-6">     
+        <div class="col-1">   </div>
+        <div class="sm-col-13 md-col-6">     
           <a href="humidity.html"> <img width="mr-auto", height="240"  src="Images/Fig2.png" > </a>
          
         </div>
     </div>
+
     <!-- Second row of second Page -->
     <div class="row">
-        <div class="sm-col-12 md-col-6">     
+      <div class="col-1">   </div>
+        <div class="sm-col-13 lg-col-6">     
           <a href="cloudiness.html"> <img width="mr-auto", height="240"  src="Images/Fig3.png" > </a>
   
         </div>
-        <div class="sm-col-12 md-col-6">     
+        <div class="col-1">   </div>
+        <div class="sm-col-13 lg-col-6">     
           <a href="windspeed.html"> <img width="mr-auto", height="240"  src="Images/Fig4.png" > </a>
         </div>
   <!-- End of second row -->
     </div>
     <!-- End of second page on right -->
-</div>
-    </div>
   </article>
+</div>
+  
 </article>
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
